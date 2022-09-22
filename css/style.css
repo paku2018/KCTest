@@ -1,0 +1,78 @@
+body {
+    min-height: 100vh;
+}
+
+.login .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: unset;
+    padding: 15px;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+.input-icon {
+    position: relative;
+}
+.input-icon .input-icon-addon {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon .form-control:not(:first-child) {
+    padding-left: 2.5rem;
+}
+
+.text-orange {
+    color: #e68134;
+}
+
+.btn-orange {
+    background-color: #e68134;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: white !important;
+    color: #e68134;
+    border-color: #e68134 !important;
+}
+
+.btn-orange:hover i{
+    color: #e68134 !important;
+}
+
+.ribbon {
+    height: 10px;
+    background-color: #e68134;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+td, th {
+    padding: 1rem !important;
+}
+
+tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #c6c6c6;
+}
+
+.logout-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
